@@ -17,6 +17,9 @@
     width: 10%;
     height: 100%;
 }
+.todo-input-wrapper button:hover{
+    cursor: pointer;
+}
 .fa-plus{
     color: #25a129;
 }

@@ -6,7 +6,7 @@ import './App.css';
 
 const App = () => (
     <div className="taskmanager-wrapper">
-      <Title title="Записная книжка" />
+      <Title title="записная книжка" />
       <Todo />
     </div>
 );

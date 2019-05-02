@@ -1,11 +1,12 @@
 .todo-item{
-    height: 40px;
+    min-height: 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     align-content: stretch;
+    border-bottom: 1px solid #cccccc;
 }
 .todo-item i:hover{
     cursor: pointer;

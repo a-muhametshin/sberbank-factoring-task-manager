@@ -4,6 +4,12 @@
 }
 .footer button{
     padding: 5px;
-    background-color: white;
+    background: whitesmoke;
     margin: 2px;
+    box-shadow: inset 2px 2px 2px #dddddd;
+}
+
+.footer button:hover{
+    cursor: pointer;
+
 }

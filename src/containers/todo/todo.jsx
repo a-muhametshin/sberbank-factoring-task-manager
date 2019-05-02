@@ -23,7 +23,7 @@ class Todo extends Component{
     addTask = (e) =>{
         e.preventDefault();
         const { tasksText } = this.state;
-        if(tasksText.length>3){
+        if(tasksText.length>0){
             const { addTask } = this.props;
             addTask((new Date()).getTime(), tasksText, false);
 
@@ -38,8 +38,6 @@ class Todo extends Component{
         const { tasksText } = this.state;
         const { tasks, removeTask, doneTask, filters, changeFilter, filtredTasks } = this.props;
         const isTasksExist = tasks && tasks.length > 0;
-        //debugger;
-        //const filterTasks = this.filterTasks(tasks, filters);
         return(
             <div className="todo-wrapper">
                 <ToDoInput onKeyPress={ this.addTask } onChange={ this.handleInputChange } value={ tasksText }/>
