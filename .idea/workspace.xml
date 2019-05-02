@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a92c433-18b6-4d1c-a3f3-e2b37e4671e9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.css" afterPath="$PROJECT_DIR$/src/components/footer/footer.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.jsx" afterPath="$PROJECT_DIR$/src/components/footer/footer.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-input/todo-input.css" afterPath="$PROJECT_DIR$/src/components/todo-input/todo-input.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-input/todo-input.jsx" afterPath="$PROJECT_DIR$/src/components/todo-input/todo-input.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-item/todo-item.css" afterPath="$PROJECT_DIR$/src/components/todo-item/todo-item.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list/todo-list.css" afterPath="$PROJECT_DIR$/src/components/todo-list/todo-list.css" />
-      <change beforePath="$PROJECT_DIR$/src/containers/todo/todo.css" afterPath="$PROJECT_DIR$/src/containers/todo/todo.css" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/tasks.js" afterPath="$PROJECT_DIR$/src/reducers/tasks.js" />
-    </list>
+    <list default="true" id="0a92c433-18b6-4d1c-a3f3-e2b37e4671e9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -353,12 +340,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556732925651</updated>
-      <workItem from="1556732926777" duration="6769000" />
+      <workItem from="1556732926777" duration="7133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6769000" />
+    <option name="totallyTimeSpent" value="7133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="834" y="27" width="836" height="948" extended-state="0" />
