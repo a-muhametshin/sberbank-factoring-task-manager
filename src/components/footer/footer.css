@@ -2,14 +2,22 @@
     position: absolute;
     bottom: 10px;
 }
-.footer button{
+.amount{
+    color: #cccccc;
+}
+.filter-btn{
     padding: 5px;
     background: whitesmoke;
     margin: 2px;
-    box-shadow: inset 2px 2px 2px #dddddd;
+    border: none;
 }
-
-.footer button:hover{
+.filter-btn.active{
+    background-color: #25a129;
+    color: white;
+}
+.filter-btn:hover{
     cursor: pointer;
+    background-color: #26c22b;
+    color: white;
 
 }

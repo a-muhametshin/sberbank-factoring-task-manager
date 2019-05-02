@@ -14,12 +14,13 @@
     box-sizing: border-box;
 }
 .todo-input-wrapper button{
-    width: 10%;
     height: 100%;
+    color: #25a129;
+    border: none;
+    background-color: transparent;
 }
 .todo-input-wrapper button:hover{
     cursor: pointer;
-}
-.fa-plus{
-    color: #25a129;
+    color: white;
+    background-color: #25a129;
 }
