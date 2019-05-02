@@ -6,7 +6,7 @@ import './todo-input.css';
 const ToDoInput = ({ value, onChange, onKeyPress }) => (
     <form action="" className="todo-input-wrapper" onSubmit={ onKeyPress }>
         <input className="todo-input"
-        placeholder="Введите заметку и нажмите Enter"
+        placeholder="Введите заметку"
         onChange={ onChange }
         value={ value }/>
         <button><i className="fas fa-plus"/></button>

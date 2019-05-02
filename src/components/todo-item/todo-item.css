@@ -7,13 +7,14 @@
     align-items: center;
     align-content: stretch;
     border-bottom: 1px solid #cccccc;
+    font-family: 'Marck Script', cursive;
+    font-size: 1.2em;
+
 }
 .todo-item i:hover{
     cursor: pointer;
 }
-.todo-item i{
-    margin: 0 10px;
-}
+
 .todo-item .text{
     text-align: left;
     width: 80%;

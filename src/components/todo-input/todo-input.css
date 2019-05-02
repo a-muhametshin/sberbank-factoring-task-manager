@@ -12,6 +12,13 @@
     height: 100%;
     padding: 5px;
     box-sizing: border-box;
+    font-family: 'Marck Script', cursive;
+    font-size: 1.2em;
+
+}
+.todo-input-wrapper input::placeholder{
+    color: #cccccc;
+
 }
 .todo-input-wrapper button{
     height: 100%;
@@ -23,4 +30,6 @@
     cursor: pointer;
     color: white;
     background-color: #25a129;
+    transition: all 1s ease;
+
 }
