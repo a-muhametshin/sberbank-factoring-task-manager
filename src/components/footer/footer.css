@@ -4,11 +4,12 @@
 }
 .amount{
     color: #cccccc;
+
 }
 .filter-btn{
     padding: 5px;
     background: whitesmoke;
-    margin: 2px;
+    margin: 0;
     border: none;
 }
 .filter-btn.active{

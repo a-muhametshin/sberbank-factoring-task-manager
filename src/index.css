@@ -8,9 +8,5 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
-}
-
-.color{
-  /*background-color: rgb(37, 161, 41);*/
-  /*background: #25a129;*/
+  color: #483e3e;
 }
