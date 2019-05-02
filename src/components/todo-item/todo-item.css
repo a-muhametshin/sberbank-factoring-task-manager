@@ -1,0 +1,29 @@
+.todo-item{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+}
+.todo-item i:hover{
+    cursor: pointer;
+}
+.todo-item i{
+    margin: 0 10px;
+}
+.todo-item .text{
+    text-align: left;
+    width: 80%;
+}
+.fa-check-circle{
+    color: #cccccc;
+}
+.completed.text{
+    text-decoration: line-through;
+    color: #cccccc;
+}
+.fa-times{
+    color: tomato;
+}

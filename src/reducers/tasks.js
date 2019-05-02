@@ -4,23 +4,23 @@ import { ADD_TASK, REMOVE_TASK, DONE_TASK } from '../const';
 const TASKS = [
     {
         id: 1,
-        text: 'Learn React',
+        text: 'Пройти собеседование',
         isCompleted: true
     },
     {
         id: 2,
-        text: 'Learn Redux',
+        text: 'Выполнить тестовое задание',
         isCompleted: true
     },
     {
         id: 3,
-        text: 'Learn React-router',
-        isCompleted: true
+        text: 'Поступить на работу',
+        isCompleted: false
     },
     {
         id: 4,
-        text: 'Learn React-dom',
-        isCompleted: true
+        text: 'Добиться весомых результатов',
+        isCompleted: false
     },
 ];
 

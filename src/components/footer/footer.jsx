@@ -5,22 +5,22 @@ import './footer.css';
 
 const FILTERS_BTN = [
     {
-        text: 'All',
+        text: 'Все',
         id: 'all'
     },
     {
-        text: 'Active',
+        text: 'Активные',
         id: 'active'
     },
     {
-        text: 'Completed',
+        text: 'Завершенные',
         id: 'completed'
     },
 ];
 
 const Footer = ({ amount, activeFilter, changeFilter }) =>(
     <div className="footer">
-        <span className="amount">{`${ amount } Task left`}</span>
+        <span className="amount">{`Всего ${ amount } шт.`}</span>
         <div className="btn-group">
             {FILTERS_BTN.map(({text, id}) => (
                 <button

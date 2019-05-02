@@ -1,0 +1,9 @@
+.footer{
+    position: absolute;
+    bottom: 10px;
+}
+.footer button{
+    padding: 5px;
+    background-color: white;
+    margin: 2px;
+}
