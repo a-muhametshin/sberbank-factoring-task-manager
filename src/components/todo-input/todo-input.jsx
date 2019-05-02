@@ -4,14 +4,13 @@ import PropTypes  from 'prop-types';
 import './todo-input.css';
 
 const ToDoInput = ({ value, onChange, onKeyPress }) => (
-    <div className="todo-input-wrapper">
-        <i className="fas fa-plus"/>
+    <form action="" className="todo-input-wrapper" onSubmit={ onKeyPress }>
         <input className="todo-input"
         placeholder="Введите заметку и нажмите Enter"
         onChange={ onChange }
-        onKeyPress={ onKeyPress }
         value={ value }/>
-    </div>
+        <button><i className="fas fa-plus"/></button>
+    </form>
 );
 
 ToDoInput.propTypes ={

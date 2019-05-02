@@ -1,7 +1,7 @@
 .todo-input-wrapper{
+    display: flex;
     width: 100%;
     height: 40px;
-    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -9,11 +9,14 @@
 }
 .todo-input-wrapper input{
     width: 90%;
-    height: 30px;
+    height: 100%;
     padding: 5px;
     box-sizing: border-box;
 }
-.fa-plus{
+.todo-input-wrapper button{
     width: 10%;
+    height: 100%;
+}
+.fa-plus{
     color: #25a129;
 }

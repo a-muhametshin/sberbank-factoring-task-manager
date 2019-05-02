@@ -20,9 +20,10 @@ class Todo extends Component{
             filterTasks: [],
         })
     };
-    addTask = ({ key }) =>{
+    addTask = (e) =>{
+        e.preventDefault();
         const { tasksText } = this.state;
-        if(tasksText.length>3 && key === 'Enter'){
+        if(tasksText.length>3){
             const { addTask } = this.props;
             addTask((new Date()).getTime(), tasksText, false);
 
