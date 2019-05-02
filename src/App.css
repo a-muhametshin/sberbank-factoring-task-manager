@@ -8,7 +8,7 @@
 .taskmanager-wrapper
 {
     position: relative;
-    padding: 3em 1em;
+    padding: 4em 1em;
     margin: 50px auto;
     min-height: 300px;
     width: 250px;
@@ -48,7 +48,9 @@
 
 }
 
-.taskmanager-wrapper:hover svg{
+.taskmanager-wrapper:hover svg, .taskmanager-wrapper:hover h1{
   transition: all 1s ease;
   fill: #25a129;
+  color: #483e3e;
 }
+

@@ -1,24 +1,33 @@
 .footer{
     position: absolute;
     bottom: 10px;
+    width: 100%;
+    padding: 0 1em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 .amount{
     color: #cccccc;
-
+    padding: 5px;
 }
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .filter-btn{
     padding: 5px;
-    background: whitesmoke;
+    background: transparent;
     margin: 2px;
     border: none;
 }
 .filter-btn.active{
-    background-color: #25a129;
-    color: white;
+    color: #25a129;
 }
 .filter-btn:hover{
     cursor: pointer;
-    background-color: #26c22b;
-    color: white;
-
+    color: #26c22b;
 }
